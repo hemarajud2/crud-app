@@ -1,0 +1,284 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Hemaraju",
+      "lastName": "Dunna",
+      "mobile": "9000542179",
+      "email": "hemarajud@gmail.com",
+      "salary": 20000
+    },
+    {
+      "id": 2,
+      "firstName": "Ramaraju",
+      "lastName": "Kalidindi",
+      "mobile": "9989400154",
+      "email": "ramaraju@gmail.com",
+      "salary": 35000
+    },
+    {
+      "id": 3,
+      "firstName": "SuryaKumar",
+      "lastName": "Kola",
+      "mobile": "9989513573",
+      "email": "surya@gmail.com",
+      "salary": 25000
+    },
+    {
+      "id": 4,
+      "firstName": "Laxman",
+      "lastName": "Dunna",
+      "mobile": "939632639",
+      "email": "laxman@gmail.com",
+      "salary": 45000
+    },
+    {
+      "id": 5,
+      "firstName": "Bhaskar",
+      "lastName": "Gorakala",
+      "mobile": "998953242",
+      "email": "Bhaskar@gmail.com",
+      "salary": 95000
+    }
+  ],
+  "data": [
+    {
+      "Emp_Id": 1,
+      "Emp_Name": "Hemaraju",
+      "Emp_Gender": "false",
+      "Emp_Deptno": 1,
+      "Emp_Salary": 20000,
+      "Emp_Deptname": "Accounting"
+    },
+    {
+      "Emp_Id": 2,
+      "Emp_Name": "Ramaraju",
+      "Emp_Gender": "false",
+      "Emp_Deptno": 2,
+      "Emp_Salary": 25000,
+      "Emp_Deptname": "Reasearching"
+    },
+    {
+      "Emp_Id": 3,
+      "Emp_Name": "SuryaKumar",
+      "Emp_Gender": "false",
+      "Emp_Deptno": 5,
+      "Emp_Salary": 30000,
+      "Emp_Deptname": "Sales"
+    },
+    {
+      "Emp_Id": 4,
+      "Emp_Name": "Bhaskar",
+      "Emp_Gender": "false",
+      "Emp_Deptno": 3,
+      "Emp_Salary": 35000,
+      "Emp_Deptname": "Operations"
+    },
+    {
+      "Emp_Id": 5,
+      "Emp_Name": "Egnesh",
+      "Emp_Gender": "false",
+      "Emp_Deptno": 4,
+      "Emp_Salary": 330000,
+      "Emp_Deptname": "Clerk"
+    },
+    {
+      "Emp_Id": 6,
+      "Emp_Name": "Sathyam",
+      "Emp_Gender": "false",
+      "Emp_Deptno": 8,
+      "Emp_Salary": 15000,
+      "Emp_Deptname": "Cashyar"
+    },
+    {
+      "Emp_Id": 7,
+      "Emp_Name": "Gayatri",
+      "Emp_Gender": "false",
+      "Emp_Deptno": 7,
+      "Emp_Salary": 50000,
+      "Emp_Deptname": "Manager"
+    },
+    {
+      "Emp_Id": 8,
+      "Emp_Name": "sireesha",
+      "Emp_Gender": "false",
+      "Emp_Deptno": 0,
+      "Emp_Salary": 15000,
+      "Emp_Deptname": "ast.manager"
+    }
+  ],
+  "data1": [
+    {
+      "Dept_No": 1,
+      "Dept_Name": "Accounting",
+      "Dept_Location": "Mumbai"
+    },
+    {
+      "Dept_No": 2,
+      "Dept_Name": "Labaratory",
+      "Dept_Location": "Delhi"
+    },
+    {
+      "Dept_No": 3,
+      "Dept_Name": "Resarch",
+      "Dept_Location": "Hyderabad"
+    },
+    {
+      "Dept_No": 4,
+      "Dept_Name": "Sales",
+      "Dept_Location": "Vizag"
+    }
+  ],
+  "dat2": [
+    {
+      "name": "Ramaraju",
+      "mobile": 9989400154,
+      "email": "ramarajukalidindi@gmail.com",
+      "password": "ramdjdidjdjedkcjd",
+      "id": 14
+    },
+    {
+      "name": "hemanth",
+      "mobile": 987654323,
+      "email": "hemma@gmail.com",
+      "password": "dfgyuiop['kjhg",
+      "id": 15
+    },
+    {
+      "name": "chaithanya",
+      "mobile": 9873837847,
+      "email": "chaithu@gmail.com",
+      "password": "chaithukdidrju",
+      "id": 16
+    },
+    {
+      "name": "vasudevu",
+      "mobile": 9618039622,
+      "email": "vasudevu@gmail.com",
+      "password": "vassuyd djdkjhuhjd",
+      "id": 17
+    },
+    {
+      "name": "priyanka",
+      "mobile": 9898374934,
+      "email": "priyanka123@gmail.com",
+      "password": "priyanka1234",
+      "id": 18
+    },
+    {
+      "name": "balu",
+      "mobile": 9701029343,
+      "email": "balu12@gmail.com",
+      "password": "balue@1234",
+      "id": 19
+    },
+    {
+      "name": "reshmi",
+      "mobile": 9086384637,
+      "email": "reshmi12@gmail.com",
+      "password": "reshmi1234",
+      "id": 20
+    },
+    {
+      "name": "chaithanya",
+      "mobile": 87878788978,
+      "email": "chaithanya@gmail.com",
+      "password": "chaithanya 1234",
+      "id": 21
+    },
+    {
+      "name": "kesavrao",
+      "mobile": 996335839,
+      "email": "kesav@gmail.com",
+      "password": "kesav1233w",
+      "id": 24
+    },
+    {
+      "name": "KANCHANA",
+      "mobile": 9989512140,
+      "email": "kanchana@gmail.com",
+      "password": "kanchana2122",
+      "id": 25
+    },
+    {
+      "mobile": null,
+      "id": 26
+    },
+    {
+      "mobile": null,
+      "id": 27
+    },
+    {
+      "mobile": null,
+      "id": 28
+    }
+  ],
+  "flights": [
+    {
+      "AirportName": "Agatti Island Airport"
+    },
+    {
+      "AirportName": "Ahmedabad Airport"
+    },
+    {
+      "AirportName": "Aizawl Airport"
+    },
+    {
+      "AirportName": "Amausi Airport"
+    },
+    {
+      "AirportName": "Bajpe Airport"
+    },
+    {
+      "AirportName": "Bamrauli Airport"
+    },
+    {
+      "AirportName": "Bhubaneswar Airportt"
+    },
+    {
+      "AirportName": "Chandigarh Airport"
+    },
+    {
+      "AirportName": "Chennai International Airport"
+    },
+    {
+      "AirportName": "Darjeeling Airport"
+    },
+    {
+      "AirportName": "Gorakhpur Airport"
+    },
+    {
+      "AirportName": "Hyderabad International Airport"
+    },
+    {
+      "AirportName": "Indira Gandhi International Airport"
+    },
+    {
+      "AirportName": "Jodhpur Airport"
+    },
+    {
+      "AirportName": "Kandla Airport"
+    },
+    {
+      "AirportName": "Kullu Manali Airport"
+    },
+    {
+      "AirportName": "Lilabari Airport"
+    },
+    {
+      "AirportName": "Mysore Airport"
+    },
+    {
+      "AirportName": "Netaji Subhash Chandra Bose International Airport"
+    },
+    {
+      "AirportName": "Peelamedu Airportt"
+    },
+    {
+      "AirportName": "Porbandar Airport"
+    },
+    {
+      "AirportName": "Vishakhapatnam Airportt"
+    }
+  ]
+}

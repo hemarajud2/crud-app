@@ -1,0 +1,36 @@
+
+
+
+.navbar{
+    background-color:#004e8e ;
+    height: 110px;
+}
+.color1{
+    font-weight: bold;
+    font-size: 25px;
+    color:beige;
+    margin-left: 98px;
+    margin-bottom: 60px;
+}
+.color2{
+    font-weight: bold;
+    font-size: 28px;
+    color:#3488f5;
+    margin-bottom: 60px;
+  
+}
+
+.navbar .nav-item a{
+    font-weight: semibold;
+    font-size: 15px;
+    color:beige !important;
+    margin-top: 55px;
+    margin-right:10px;
+    margin-left:0;
+     
+}
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

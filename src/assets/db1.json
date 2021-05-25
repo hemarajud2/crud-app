@@ -1,0 +1,181 @@
+{
+    "users": [
+      { "id": 1,
+        "firstName": "Hemaraju",
+        "lastName" : "Dunna",
+        "mobile": "9000542179",
+        "email": "hemarajud@gmail.com",
+        "salary": "14000" 
+      },
+      { "id": 2,
+        "firstName": "ramaraju",
+        "lastName" : "kalidindi",
+        "mobile": "998940154",
+        "email": "hemarajud@gmail.com",
+        "salary": "14000" 
+      },
+      { "id": 3,
+        "firstName": "praveen",
+        "lastName" : "varma",
+        "mobile": "9845400544",
+        "email": "praveen@gmail.com",
+        "salary": "20000"
+      },
+      { "id": 4,
+        "firstName": "surya",
+        "lastName" : "kumar",
+        "mobile": "9898474685",
+        "email": "surya@gmail.com",
+        "salary": "18000"
+      },
+      { "id": 4,
+        "firstName": "surya",
+        "lastName" : "kumar",
+        "mobile": "9898474685",
+        "email": "surya@gmail.com",
+        "salary": "18000"
+      },
+      { "id": 4,
+        "firstName": "surya",
+        "lastName" : "kumar",
+        "mobile": "9898474685",
+        "email": "surya@gmail.com",
+        "salary": "18000"
+      },
+      { "id": 4,
+        "firstName": "surya",
+        "lastName" : "kumar",
+        "mobile": "9898474685",
+        "email": "surya@gmail.com",
+        "salary": "18000"
+      },
+      { "id": 4,
+        "firstName": "surya",
+        "lastName" : "kumar",
+        "mobile": "9898474685",
+        "email": "surya@gmail.com",
+        "salary": "18000"
+      }
+    ],
+    "data": [
+      { "Emp_Id": 1,
+        "Emp_Name": "Hemaraju",
+        "Emp_Gender": "false",
+        "Emp_Deptno": 0,
+        "Emp_Salary": 20000,
+        "Emp_Deptname": "Accounting"
+      },
+      { "Emp_Id": 2,
+        "Emp_Name": "Ramaraju",
+        "Emp_Gender": "false",
+        "Emp_Deptno": 0,
+        "Emp_Salary": 25000,
+        "Emp_Deptname": "Reasearching"
+      },
+      { "Emp_Id": 1,
+        "Emp_Name": "SuryaKumar",
+        "Emp_Gender": "false",
+        "Emp_Deptno": 0,
+        "Emp_Salary": 30000,
+        "Emp_Deptname": "Sales"
+      },
+      { "Emp_Id": 1,
+        "Emp_Name": "Bhaskar",
+        "Emp_Gender": "false",
+        "Emp_Deptno": 0,
+        "Emp_Salary": 35000,
+        "Emp_Deptname": "Operations"
+      },
+      { "Emp_Id": 1,
+        "Emp_Name": "Egnesh",
+        "Emp_Gender": "false",
+        "Emp_Deptno": 0,
+        "Emp_Salary": 330000,
+        "Emp_Deptname": "Clerk"
+      },
+      { "Emp_Id": 1,
+        "Emp_Name": "Sathyam",
+        "Emp_Gender": "false",
+        "Emp_Deptno": 0,
+        "Emp_Salary": 15000,
+        "Emp_Deptname": "Cashyar"
+      },
+      { "Emp_Id": 1,
+        "Emp_Name": "Kumar",
+        "Emp_Gender": "false",
+        "Emp_Deptno": 0,
+        "Emp_Salary": 50000,
+        "Emp_Deptname": "Manager"
+      }
+    ],
+    "flights": [
+      {
+        "AirportName": "Agatti Island Airport"
+      },
+      {
+        "AirportName": "Ahmedabad Airport"
+      },
+      {
+        "AirportName": "Aizawl Airport"
+      },
+      {
+        "AirportName": "Amausi Airport"
+      },
+      {
+        "AirportName": "Bajpe Airport"
+      },
+      {
+        "AirportName": "Bamrauli Airport"
+      },
+      {
+        "AirportName": "Bhubaneswar Airportt"
+      },  {
+        "AirportName": "Chandigarh Airport"
+      },
+      {
+        "AirportName": "Chennai International Airport"
+      },
+      {
+        "AirportName": "Darjeeling Airport"
+      },
+    
+      {
+        "AirportName": "Gorakhpur Airport"
+      },
+      {
+        "AirportName": "Hyderabad International Airport"
+      },
+      {
+        "AirportName": "Indira Gandhi International Airport"
+      },
+      {
+        "AirportName": "Jodhpur Airport"
+      },
+      {
+        "AirportName": "Kandla Airport"
+      },
+      {
+        "AirportName": "Kullu Manali Airport"
+      },
+      {
+        "AirportName": "Lilabari Airport"
+      },
+      {
+        "AirportName": "Mysore Airport"
+      },
+      {
+        "AirportName": "Netaji Subhash Chandra Bose International Airport"
+      },
+      {
+        "AirportName": "Peelamedu Airportt"
+      },
+      {
+        "AirportName": "Porbandar Airport"
+      },      
+      {
+        "AirportName": "Vishakhapatnam Airportt"
+      }
+     
+    ],
+    "profile": { "name": "typicode" }
+  }

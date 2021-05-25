@@ -1,0 +1,62 @@
+<p>car-rental component</p>
+<div class="container">
+<form [formGroup]="myform" (ngSubmit)="CreateEmp()">
+    <div class="form-group">
+      <label>Name:</label>
+      <input type="text" class="form-control" formControlName="Emp_Name" name="Emp_Name"  placeholder="name">
+    </div>
+
+    <div class="form-group">
+        <label>Gender:</label>
+      </div>
+    <div class="form-check">
+        <input class="form-check-input" formControlName="Emp_Gender" type="radio" name="Emp_Gender" value="Male">
+        <label class="form-check-label" for="exampleRadios1">
+          Male
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" formControlName="Emp_Gender" type="radio" name="Emp_Gender" value="Female">
+        <label class="form-check-label" for="exampleRadios2">
+     Female
+        </label>
+      </div>
+      
+    
+    <div class="form-group">
+        <label>Department:</label>
+      <select formControlName="Emp_Deptno">
+          <option>--select Department</option>
+          <option *ngFor="let dept of department">
+              {{dept.Dept_Name}}
+          </option>
+      </select>
+    </div>
+    
+     <div class="form-group">
+       <label>Salary:</label>
+       <input type="text" name="Emp_Salary" formControlName="Emp_Salary">
+     </div>
+
+    <button type="submit" class="btn btn-primary">create</button>
+  </form>
+
+</div>
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Deptname</th>
+        <th>Salary</th>
+        <th>Deptno</th>
+    </tr>
+     <tr *ngFor = "let emp of emplist">
+         <td>{{emp.Emp_Id}}</td>
+         <td>{{emp.Emp_Name}}</td>
+         <td>{{emp.Emp_Gender | settingGender}}</td>
+         <td>{{emp.Emp_Deptname}}</td>
+         <td>{{emp.Emp_Salary}}</td>
+         <td>{{emp.Emp_Deptno}}</td>
+     </tr>
+</table>

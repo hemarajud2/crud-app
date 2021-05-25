@@ -1,0 +1,184 @@
+/*
+
+.h3{
+    margin-top:85px;
+    padding-left: 230px;
+}
+.drop{
+    margin-left: 225px;
+    margin-top: 100px;
+}
+* {
+    -webkit-border-radius: 1px !important;
+       -moz-border-radius: 1px !important;
+            border-radius: 1px !important;
+  }
+  
+  
+  
+  #form-buscar >.form-group >.input-group > .form-control {
+      height: 40px;
+  }
+  #form-buscar >.form-group >.input-group > .input-group-btn > .btn{
+          height: 40px; 
+          font-size: 16px;
+          font-weight: 300; 
+           
+         
+  }
+  #form-buscar >.form-group >.input-group > .input-group-btn > .btn .glyphicon{
+   margin-right:12px;   
+  }    
+  
+  
+  #form-buscar >.form-group >.input-group > .form-control {
+      font-size: 16px;
+      font-weight: 300;
+     
+  }
+  
+  #form-buscar >.form-group >.input-group > .form-control:focus {
+    border-color: #33A444;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 1px rgba(0, 109, 0, 0.8);
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 1px rgba(0, 109, 0, 0.8);
+  
+ }
+
+ .div{
+     border: 8px solid rgba(223, 223, 12, 0.945);
+     margin: 90px 90px;
+ }*/
+ 
+/*search box css start here*/
+.search-sec{
+    padding: 2rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+@media (min-width: 992px){
+    .search-sec{
+        position: relative;
+        top: 114px;
+     
+    }
+}
+
+@media (max-width: 992px){
+    .search-sec{
+        background: #1A4668;
+    }
+}
+
+h2{
+    margin-top: 24px;
+    margin-left: 185px;
+}
+
+
+
+
+
+
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+      -moz-appearance: textfield;
+            appearance: textfield;
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+  }
+  .number-input {
+    margin: 3rem;
+  }
+  .number-input button {
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+  }
+  .number-input button:before,
+  .number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    height: 2px;
+    transform: translate(-50%, -50%);
+  }
+  .number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+  .number-input input[type=number] {
+    text-align: center;
+  }
+  
+  
+  .md-number-input.number-input {
+    border: 2px solid #ddd;
+    width: 11.8rem;
+  }
+  .md-number-input.number-input button {
+    outline: none;
+    width: 3rem;
+    height: 2rem;
+    padding-top: .8rem;
+  }
+  .md-number-input.number-input button.minus {
+    padding-left: 8px;
+  }
+  .md-number-input.number-input button.plus {
+    padding-left: 2px;
+  }
+  .md-number-input.number-input button:before,
+  .md-number-input.number-input button:after {
+    width: 1rem;
+    background-color: #212121;
+  }
+  .md-number-input.number-input input[type=number] {
+    max-width: 5rem;
+    padding: .5rem;
+    border: solid #ddd;
+    border-width: 0 2px;
+    font-size: 2rem;
+    height: 3rem;
+    font-weight: bold;
+    outline: none;
+  }
+  @media not all and (min-resolution:.001dpcm)
+  { @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+    .number-input.md-number-input.safari_only button:before, 
+    .number-input.md-number-input.safari_only button:after {
+      margin-top: -.6rem;
+    }
+  }}
+
+
+
+
+
+
+

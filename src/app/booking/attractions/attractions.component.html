@@ -1,0 +1,122 @@
+<p>attractions works!</p>
+<br>
+<!--
+<div class="container">
+    <div class="row">
+      <div class="col-sm-9">
+        <div class="row">
+        <div class="col-sm-3">
+             
+    <div class="dropdown">
+        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Round-trip
+        </button>
+        <div class="dropdown-menu" >
+          <a class="dropdown-item" href="#">One-Way</a>
+          <a class="dropdown-item" href="#">Multi-City</a>
+        </div>
+        </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Round-trip
+                </button>
+                <div class="dropdown-menu" >
+                  <a class="dropdown-item" href="#">One-Way1</a>
+                  <a class="dropdown-item" href="#">Multi-City2</a>
+                </div>
+                </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Round-trip
+                </button>
+                <div class="dropdown-menu" >
+                  <a class="dropdown-item" href="#">One-Way3</a>
+                  <a class="dropdown-item" href="#">Multi-City3</a>
+                </div>
+                </div>
+          </div>
+      </div>
+    </div>
+     
+    </div>
+  </div>
+<br>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-md-4">
+<div class="dropdown show">
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown link
+    </a>
+  
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <a class="dropdown-item" href="#">Action1</a>
+      <a class="dropdown-item" href="#">Another action1</a>
+      <a class="dropdown-item" href="#">Something else here1</a>
+    </div>
+</div>
+  </div>
+  <div class="col-md-4">
+
+  <div class="dropdown show">
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown link
+    </a>
+  
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <a class="dropdown-item" href="#">Action2</a>
+      <a class="dropdown-item" href="#">Another action2</a>
+      <a class="dropdown-item" href="#">Something else here2</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="dropdown show">
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown link
+    </a>
+  
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <a class="dropdown-item" href="#">Action3</a>
+      <a class="dropdown-item" href="#">Another action3</a>
+      <a class="dropdown-item" href="#">Something else here3</a>
+    </div>
+</div>  
+</div>
+  </div>
+</div> <!--end row-->
+--->
+
+<nav class="navbar">
+<input type="text" class="form-control" name="firstName" [(ngModel)]="firstName" (ngModelChange)="Search()" placeholder="Search first name" autocomplete="off">
+</nav>
+
+<table class="table table-bordered">
+  <thead>
+      <tr>
+          <th (click)="sort('id')">userId&nbsp; <i class="fa fa-sort"></i></th>
+          <th>FirstName</th>
+          <th>LastName</th>
+          <th>Email</th>
+          <th>Mobile</th>
+          <th>Salary</th>
+      </tr>
+  </thead>
+  <tbody >
+      <tr *ngFor= "let user of users | orderBy: key: reverse">
+          <td>{{user.id}}</td>
+          <td>{{user.firstName}}</td>
+          <td>{{user.lastName}}</td>
+          <td>{{user.email}}</td>
+          <td>{{user.mobile}}</td>
+          <td>{{user.salary}}</td>
+      </tr>
+  </tbody>
+ 
+</table>
