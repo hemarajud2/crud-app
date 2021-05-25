@@ -180,11 +180,18 @@
       "id": 20
     },
     {
+      "name": "maharsi",
+      "mobile": 9087884637,
+      "email": "maharshi@gmail.com",
+      "password": "maharshi123",
+      "id": 21
+    },
+    {
       "name": "chaithanya",
       "mobile": 87878788978,
       "email": "chaithanya@gmail.com",
       "password": "chaithanya 1234",
-      "id": 21
+      "id": 22
     },
     {
       "name": "kesavrao",
